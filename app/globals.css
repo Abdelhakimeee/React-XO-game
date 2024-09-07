@@ -1,0 +1,39 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+  
+}
+.gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 50%;
+  border: solid 2px black;
+
+}
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.3%;
+  height: 33.3%;
+  border: solid 2px black;
+  box-sizing: border-box;
+}
+.cross, .circle {
+  font-size: 80px;
+  font-weight: bold;
+}
+.cross {
+  color: red;
+}
+.circle {
+  color: blue;
+}
+.message{
+  margin-top: 40px;
+}
